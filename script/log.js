@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }, 1500);
                 } else {
                     msgDiv.style.color = 'red';
-                    msgDiv.innerHTML = + data.message;
+                    msgDiv.innerHTML =  'Неверная почта или пароль';
                 }
             } catch (error) {
                 msgDiv.style.color = 'red';
